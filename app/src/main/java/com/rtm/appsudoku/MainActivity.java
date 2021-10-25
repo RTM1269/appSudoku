@@ -91,12 +91,13 @@ public class MainActivity extends AppCompatActivity {
         while(i<9){
             if(cont < 3){
                 nums[i]=lista_et_contenido[j];
-                Log.i("c",""+nums[i]);
+               // Log.i("c",""+nums[i]);
                 Log.i("li"," "+ lista_et_contenido[j]);
                 i++;
+                j=j+3;
                 cont++;
             }else{
-                j=j+20;
+                j=j+18;
                 cont=0;
             }
         }
