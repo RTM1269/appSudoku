@@ -41,17 +41,17 @@ public class MainActivity extends AppCompatActivity {
             Log.d("idS",lista_et_id[i]);
         }
     }
-    public void volcalContenido(){ //Recoge todos los valores de los EditText
+    public void volcarContenido(){ //Recoge todos los valores de los EditText
         lista_et_contenido = new String[81];
         for (int i = 0; i<lista_et_contenido.length;i++) {
             int etID = getResources().getIdentifier(lista_et_id[i], "id", getPackageName());
             etn = (EditText) findViewById(etID);
-            lista_et_contenido[i] = etn.getText().toString();//Log.i("cont",""+lista_et_contenido[i]);
+            lista_et_contenido[i] = etn.getText().toString();Log.i("cont",""+lista_et_contenido[i]);
         }
     }
     public void comprobarFilas(){ //Volcamos la fila que queremos comprobar en el array NUMS y posteriormente verificamos que no exista ninguna coincidencia
         String[] nums ={"","","","","","","","",""};//9 huecosn por 9 posibles numeros
-        volcalContenido();
+        volcarContenido();
         int j=0,k=0,cont=0;
         while(j<9){
             if (cont<3){
@@ -85,14 +85,16 @@ public class MainActivity extends AppCompatActivity {
         Log.i("FILA COMPROBADA:","" + rep);
     }
     public void comprobarColumnas(){
-        String[] nums ={"","","","","","","","",""};//9 huecosn por 9 posibles numeros
-        volcalContenido();
-        int j=0,cont=0;
-        for (int i=0; i<9;i++){
+        String[] nums ={"","","","","","","","",""};//9 huecos por 9 posibles numeros
+        volcarContenido();
+        int j=0,cont=0,i=0;
+        while(i<9){
             if(cont < 3){
                 nums[i]=lista_et_contenido[j];
-                j=j+3;
                 Log.i("c",""+nums[i]);
+                Log.i("li"," "+ lista_et_contenido[j]);
+                i++;
+                cont++;
             }else{
                 j=j+20;
                 cont=0;

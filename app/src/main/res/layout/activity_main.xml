@@ -85,6 +85,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -120,6 +121,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -201,6 +203,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -236,6 +239,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -317,6 +321,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -352,6 +357,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -405,6 +411,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -414,6 +421,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -439,6 +447,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -474,6 +483,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -509,6 +519,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -518,6 +529,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -527,6 +539,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -552,6 +565,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -587,6 +601,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -622,6 +637,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -631,6 +647,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -640,6 +657,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -665,6 +683,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -701,6 +720,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -754,6 +774,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -763,6 +784,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -788,6 +810,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -823,6 +846,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -858,6 +882,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -867,6 +892,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -876,6 +902,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -901,6 +928,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -936,6 +964,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -971,6 +1000,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -980,6 +1010,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -989,6 +1020,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -1014,6 +1046,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
@@ -1049,6 +1082,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
+                        android:text="0"
                         android:textAlignment="center" />
 
                     <EditText
