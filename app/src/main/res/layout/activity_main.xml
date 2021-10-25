@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:showDividers="middle|beginning|end">
+
+        <TableRow
+            android:id="@+id/r0"
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:paddingLeft="35dp">
+
+            <LinearLayout
+                android:id="@+id/cuadrado00"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/fila000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+                    <EditText
+                        android:id="@+id/et0000"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0001"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:background="@drawable/border"/>
+
+                    <EditText
+                        android:id="@+id/et0002"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="3"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et0010"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0011"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0012"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila002"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et0020"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="3"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0021"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0022"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cuadrado01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/fila010"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+                    <EditText
+                        android:id="@+id/et0100"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="4"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0101"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0102"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="6"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila011"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et0110"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0111"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0112"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila012"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et0120"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0121"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0122"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cuadrado02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/fila020"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+                    <EditText
+                        android:id="@+id/et0200"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="7"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0201"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="8"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0202"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="9"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila021"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et0210"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0211"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0212"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila022"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et0220"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0221"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et0222"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="35dp">
+
+            <LinearLayout
+                android:id="@+id/cuadrado10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/fila100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+                    <EditText
+                        android:id="@+id/et1000"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="4"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1001"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1002"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila101"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et1010"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1011"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1012"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila102"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et1020"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="6"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1021"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1022"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cuadrado11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/fila110"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+                    <EditText
+                        android:id="@+id/et1100"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1101"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1102"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et1110"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1111"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1112"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila112"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et1120"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1121"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1122"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cuadrado12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/fila120"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+                    <EditText
+                        android:id="@+id/et1200"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1201"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1202"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila121"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et1210"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1211"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1212"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila122"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et1220"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center"
+                        tools:ignore="DuplicateIds" />
+
+                    <EditText
+                        android:id="@+id/et1221"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et1222"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/r2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="35dp">
+
+            <LinearLayout
+                android:id="@+id/cuadrado20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/fila200"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+                    <EditText
+                        android:id="@+id/et2000"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="7"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2001"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2002"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila201"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et2010"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="8"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2011"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2012"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila202"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et2020"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="9"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2021"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2022"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cuadrado21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/fila210"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+                    <EditText
+                        android:id="@+id/et2100"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2101"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2102"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila211"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et2110"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2111"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2112"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila212"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et2120"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2121"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2122"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cuadrado22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/fila220"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+                    <EditText
+                        android:id="@+id/et2200"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2201"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2202"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila221"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et2210"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2211"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2212"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fila222"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et2220"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="2"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2221"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/et2222"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:text="5"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
