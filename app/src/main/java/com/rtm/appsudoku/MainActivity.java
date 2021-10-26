@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         imprimirListaEditText();
        // comprobarFilas();
        // comprobarColumnas();
-        comprobarColumnasOK(0);
+       // comprobarColumnasOK(8);
+        comprobarFilasOK(4);
     }
     public void imprimirListaEditText(){
         for (int i=0; i<lista_et_id.length;i++){
@@ -66,36 +67,89 @@ public class MainActivity extends AppCompatActivity {
             lista_et_contenido[i] = etn.getText().toString();Log.i("cont",""+lista_et_contenido[i]);
         }
     }
+    public void comprobarFilasOK(int punto){
+        String[] nums ={"","","","","","","","",""};//9 huecosn por 9 posibles numeros
+        volcarContenidoOK();
+        int j=0,r=0,c=0,f=punto,p=0/*punto*/;
+        //row 2
+        if (punto==3){//4 - fila
+            r=1;
+            f=0;
+        }else if(punto==4){//5 - fila
+            r=1;
+            f=1;
+        }else if (punto==5){//6 - fila
+            r=1;
+            f=2;
+        }
+        //row 3
+        if (punto==7){//7 - fila
+            r=2;
+            f=0;
+        }else if(punto==8){//8 - fila
+            r=2;
+            f=1;
+        }else if (punto==9){//9 - fila
+            r=2;
+            f=2;
+        }
+
+        while(c<3){
+            nums[j]=list[r][c][f][p];
+            Log.i("c "," "+nums[j]);
+            j++;
+            p++;
+
+            if (p==3){
+                p=0;
+                c++;
+            }
+
+        }
+        boolean repetido = false;
+        for (int w=0; w<nums.length;w++){
+            for (int q=0; q<nums.length;q++){
+                if (nums[w].equals(nums[q]) && w!=q) {
+                    repetido=true;
+                    break;
+                }
+            }
+            Log.i("numerous:","" + nums[w]);
+
+        }
+        String rep;
+        if (repetido){
+            rep="repetido";
+        }else{
+            rep="NO repetido";
+        }
+        Log.i("FILA COMPROBADA:","" + rep);
+    }
     public void comprobarColumnasOK(int punto){
         String[] nums ={"","","","","","","","",""};//9 huecosn por 9 posibles numeros
         volcarContenidoOK();
-        int j=0,r=0,c=0,f=0,p=0/*punto*/;
+        int j=0,r=0,c=0,f=0,p=punto/*punto*/;
         //cuadrado 2
         if (punto==3){//4 - columna
             c=1;
-            f=0;
+            f=
             p=0;
         }else if(punto==4){//5 - columna
             c=1;
-            f=1;
             p=1;
         }else if (punto==5){//6 - columna
             c=1;
-            f=2;
             p=1;
         }
         //cuadrado 3
         if (punto==7){//7 - columna
             c=2;
-            f=0;
             p=0;
         }else if(punto==8){//8 - columna
             c=2;
-            f=1;
             p=1;
         }else if (punto==9){//9 - columna
             c=2;
-            f=2;
             p=2;
         }
 
