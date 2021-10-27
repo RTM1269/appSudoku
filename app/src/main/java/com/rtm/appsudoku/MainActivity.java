@@ -4,21 +4,45 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     private EditText etn ;
     private String[] lista_et_id,lista_et_contenido;
+    private  boolean repCFinal=false,repFfinal=false;
+    private  String[] plantillas;
+    private String[][] p1 =  {
+        {"1","9","","","","4","","",},
+        {"","","","","","","","9",""},
+        {"","","2","","","9","","3",""},
+        {"","","","","9","","","5",""},
+        {"","","","","2","","7","",""},
+        {"","","","","9","","","5",""},
+        {"","","","","9","","","5",""},
+        {"","","","","9","","","5",""},
+        {"","","","","9","","","5",""}
+    };
+    private String[][][][] p2 = {
+                    {
+                        {       {"","",""},
+                                {"","",""},
+                                {"","",""}
+                        }
+                    }
+    };
     private final String[][][][] list = new String[3][3][3][3];
     private final String[][][][] list_idS = new String[3][3][3][3];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         recogerIDs();
         comprobarColumnasOKkkk();
-        comprobarFilasOK(5);
+        comprobarFilasOKkk();
     }
+
 
     public void volcarContenidoOK(){ //Recoge todos los valores de los EditText
         lista_et_contenido = new String[81];
@@ -34,6 +58,13 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
+    }
+    public void setPlantilla(){
+        for (int i=0;i<9;i++){
+            for (int j=0;j<9;j++){
+
+            }
+        }
     }
     public void comprobarFilasOK(int punto){
         String[] nums ={"","","","","","","","",""};//9 huecosn por 9 posibles numeros
@@ -92,6 +123,70 @@ public class MainActivity extends AppCompatActivity {
             rep="NO repetido";
         }
         Log.i("FILA COMPROBADA:","" + rep);
+    }
+    public void comprobarFilasOKkk(){
+        int punto=0;
+        String[] nums ={"","","","","","","","",""};//9 huecosn por 9 posibles numeros
+        volcarContenidoOK();
+        while (punto<9) {
+            int j = 0, r = 0, c = 0, f = punto, p = 0/*punto*/;
+            //row 2
+            if (punto == 3) {//4 - fila
+                r = 1;
+                f = 0;
+            } else if (punto == 4) {//5 - fila
+                r = 1;
+                f = 1;
+            } else if (punto == 5) {//6 - fila
+                r = 1;
+                f = 2;
+            }
+            //row 3
+            if (punto == 6) {//7 - fila
+                r = 2;
+                f = 0;
+            } else if (punto == 7) {//8 - fila
+                r = 2;
+                f = 1;
+            } else if (punto == 8) {//9 - fila
+                r = 2;
+                f = 2;
+            }
+
+            while (c < 3) {
+                nums[j] = list[r][c][f][p];
+                Log.i("c ", " " + nums[j]);
+                j++;
+                p++;
+
+                if (p == 3) {
+                    p = 0;
+                    c++;
+                }
+
+            }
+
+            boolean repetido = false;
+            for (int w = 0; w < nums.length; w++) {
+                for (int q = 0; q < nums.length; q++) {
+                    if (nums[w].equals(nums[q]) && w != q) {
+                        repetido = true;
+                        repFfinal = true;
+                        break;
+                    }
+                }
+                Log.i("numerous:", "" + nums[w]);
+
+            }
+            String rep;
+            if (repetido) {
+                rep = "repetido";
+            } else {
+                rep = "NO repetido";
+            }
+            Log.i("FILA "+punto+" COMPROBADA:", "" + rep);
+            punto++;
+        }
     }
     public void comprobarColumnasOK(int punto){
         String[] nums ={"","","","","","","","",""};//9 huecosn por 9 posibles numeros
@@ -163,7 +258,7 @@ public class MainActivity extends AppCompatActivity {
             //cuadrado 2
             if (punto==3){//4 - columna
                 c=1;
-                        p=0;
+                p=0;
             }else if(punto==4){//5 - columna
                 c=1;
                 p=1;
@@ -202,6 +297,7 @@ public class MainActivity extends AppCompatActivity {
                 for (int q=0; q<nums.length;q++){
                     if (nums[w].equals(nums[q]) && w!=q) {
                         repetido=true;
+                        repCFinal=true;
                         break;
                     }
                 }
@@ -228,12 +324,15 @@ public class MainActivity extends AppCompatActivity {
                         code = "et" + String.valueOf(r) + String.valueOf(c) + String.valueOf(f) + String.valueOf(p);
                         //  Log.i("ID",code);
                         list_idS[r][c][f][p]=code;
+
                         // list[r][c][f][p]=code;Log.i("lista"," "+ list[r][c][f][p]);
                     }
                 }
             }
         }
     }
+
+
 }
 
 
